@@ -1,10 +1,13 @@
 # DAA_AAT_1BM22AI008
-Name: Akash S.S
-USN: 1BM22AI008
-Section: 4A
-Subject: DAA AAT HackerRank
 
-1. Knapsack
+# Name: Akash S.S
+# USN: 1BM22AI008
+# Section: 4A
+# Subject: DAA AAT HackerRank
+
+
+
+# 1. Knapsack
 
 #!/bin/python3
 
@@ -13,15 +16,6 @@ import os
 import random
 import re
 import sys
-
-#
-# Complete the 'unboundedKnapsack' function below.
-#
-# The function is expected to return an INTEGER.
-# The function accepts following parameters:
-#  1. INTEGER k
-#  2. INTEGER_ARRAY arr
-#
 
 def unboundedKnapsack(k, arr):
     # Write your code here
@@ -56,7 +50,7 @@ if __name__ == '__main__':
 
 
 
-2. Cloudy Day
+# 2. Cloudy Day
 
 #!/bin/python3
 
@@ -65,16 +59,6 @@ import os
 import random
 import re
 import sys
-#
-# Complete the 'maximumPeople' function below.
-#
-# The function is expected to return a LONG_INTEGER.
-# The function accepts following parameters:
-#  1. LONG_INTEGER_ARRAY p
-#  2. LONG_INTEGER_ARRAY x
-#  3. LONG_INTEGER_ARRAY y
-#  4. LONG_INTEGER_ARRAY r
-#
 
 def maximumPeople(p, x, y, r):
     n = len(p)
@@ -140,7 +124,7 @@ if __name__ == '__main__':
 
 
 
-3. QuickSort 1 - Partition
+# 3. QuickSort 1 - Partition
    
 #!/bin/python3
 
@@ -150,12 +134,6 @@ import random
 import re
 import sys
 
-#
-# Complete the 'quickSort' function below.
-#
-# The function is expected to return an INTEGER_ARRAY.
-# The function accepts INTEGER_ARRAY arr as parameter.
-#
 def partition(arr, low, high):
     pivot = arr[low]
     i = low + 1
@@ -202,7 +180,7 @@ if __name__ == '__main__':
 
 
 
-4. String Construction
+# 4. String Construction
 
 #!/bin/python3
 
@@ -211,13 +189,6 @@ import os
 import random
 import re
 import sys
-
-#
-# Complete the 'stringConstruction' function below.
-#
-# The function is expected to return an INTEGER.
-# The function accepts STRING s as parameter.
-#old
 
 def stringConstruction(s):
     # Write your code here
